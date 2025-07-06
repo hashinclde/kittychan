@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Chibi Cat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🐾 My Chibi Cat 🐾</h1>
+  
+  <div class="cat-container">
+    <img id="cat" src="assets/cat-idle.png" alt="chibi cat" />
+    <p id="status">Hello! I’m your cute kitty~</p>
+  </div>
+
+  <div class="buttons">
+    <button onclick="feedCat()">🍲 Feed</button>
+    <button onclick="sleepCat()">😴 Sleep</button>
+    <button onclick="playCat()">🧶 Play</button>
+  </div>
+
+  <audio id="eatSound" src="assets/sounds/eat.mp3"></audio>
+  <audio id="sleepSound" src="assets/sounds/sleep.mp3"></audio>
+  <audio id="playSound" src="assets/sounds/play.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

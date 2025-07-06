@@ -1,0 +1,47 @@
+body {
+  background-color: #ffeaf5;
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  padding: 2rem;
+  color: #6d3753;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cat-container {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.cat-container img {
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#status {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  background-color: #fff6fa;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.buttons button {
+  margin: 0.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #ffcce2;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.buttons button:hover {
+  background-color: #ffaad4;
+  transform: scale(1.05);
+}
